@@ -90,3 +90,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     scan_books(args.folder, args.output)
+
+# TODO
+# hash souboru (SHA256 → detekce duplicit)
+# velikost souboru
+# datum vytvoření / úpravy
+# vlastní interní ID (např. ID_KNIHA kompatibilní s tvým Excel systémem)
+# export rovnou do SQLite místo CSV
+# generování JSON pro import do Kavita
