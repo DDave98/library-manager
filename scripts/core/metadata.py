@@ -1,6 +1,6 @@
 import pikepdf
 
-
+# Funkce pro čtení a zápis metadat PDF souborů pomocí knihovny pikepdf
 def read_pdf_metadata(file_path):
     try:
         with pikepdf.open(file_path) as pdf:
@@ -14,7 +14,7 @@ def read_pdf_metadata(file_path):
     except Exception as e:
         return {"error": str(e)}
 
-
+# Funkce pro zápis metadat do PDF souboru
 def write_pdf_metadata(file_path, metadata):
     with pikepdf.open(file_path, allow_overwriting_input=True) as pdf:
         meta = pdf.docinfo

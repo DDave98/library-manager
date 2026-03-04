@@ -7,7 +7,7 @@ from core.database import LibraryDatabase
 
 SUPPORTED_EXTENSIONS = {".pdf"}
 
-
+# Prochází zadanou složku a její podadresáře, hledá podporované soubory, čte jejich metadata a ukládá do databáze
 def scan_folder(folder_path):
     db = LibraryDatabase()
 

@@ -1,7 +1,7 @@
 import csv
 from core.database import LibraryDatabase
 
-
+# Funkce pro export dat z databáze do CSV formátu
 def export_to_csv(output_file):
     db = LibraryDatabase()
 
