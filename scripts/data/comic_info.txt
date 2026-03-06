@@ -1,0 +1,18 @@
+ukázka:
+
+
+{
+  "title": "Clean Code",
+  "series": "Programming Classics",
+  "volume": 1,
+  "number": 1,
+  "summary": "A handbook of agile software craftsmanship.",
+  "writers": ["Robert C. Martin"],
+  "publisher": "Prentice Hall",
+  "year": 2008,
+  "month": 8,
+  "day": 1,
+  "genres": ["Programming", "Software Engineering"],
+  "tags": ["Clean Code", "Best Practices"],
+  "age_rating": "Everyone"
+}

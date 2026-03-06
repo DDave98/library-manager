@@ -153,3 +153,12 @@ Co přidat
 ✔ ML klasifikátor (automatická kategorie)
 ✔ REST API (FastAPI)
 ✔ Web UI
+
+# Workflow
+
+1. scan → CSV
+2. upravíš metadata v CSV
+3. import CSV → dict
+4. rename
+5. update metadata (PDF + XMP + ComicInfo)
+6. případně reorganize folders
